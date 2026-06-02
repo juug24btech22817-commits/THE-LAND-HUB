@@ -1,0 +1,102 @@
+import { Plot } from '../types';
+
+export const PLOTS: Plot[] = [
+  {
+    id: 1,
+    title: "Royal Emerald Estates",
+    location: "Kanakapura Road, Near Art of Living",
+    size: "1200 - 4000 sq ft",
+    price: "₹4,200 / sq ft",
+    image: "https://images.unsplash.com/photo-1593510987046-1f8fcfc512a0?auto=format&fit=crop&q=80&w=1200",
+    tag: "Limited Release",
+    features: ["Gated Layout", "Underground Drainage", "Park Facing"],
+    reraNumber: "PRM/KA/RERA/1251/310/PR/180516/001712",
+    amenities: ["Grand Clubhouse", "Infinity Pool", "Modern Gymnasium", "Jogging Track", "24/7 CCTV Security", "Organic Garden"],
+    floorPlanImage: "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&q=80&w=1200",
+    description: "Experience the pinnacle of luxury living at Royal Emerald Estates. Nestled near the serene Art of Living ashram, this gated community offers perfectly curated plots with world-class infrastructure."
+  },
+  {
+    id: 2,
+    title: "Skyline Serenity",
+    location: "Bannerghatta Main Road",
+    size: "30x40, 40x60",
+    price: "₹6,800 / sq ft",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200",
+    tag: "Immediate Registration",
+    features: ["A-Katha", "RERA Approved", "STP Facility"],
+    reraNumber: "PRM/KA/RERA/1251/310/PR/200124/003215",
+    amenities: ["Badminton Court", "Amphitheatre", "Senior Citizen Park", "Rainwater Harvesting", "Underground Electricity"],
+    floorPlanImage: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1200",
+    description: "Skyline Serenity brings you closer to nature without compromising on urban connectivity. Located on Bannerghatta Main Road, it's the perfect spot for your dream home."
+  },
+  {
+    id: 3,
+    title: "Kanakapura Hills II",
+    location: "Harohalli Industrial Corridor",
+    size: "2400 sq ft onwards",
+    price: "₹3,500 / sq ft",
+    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200",
+    tag: "Investment Growth",
+    features: ["DC Converted", "Clear Title", "Avenue Plantation"],
+    reraNumber: "PRM/KA/RERA/1251/310/PR/190812/002784",
+    amenities: ["Wide Tarred Roads", "Street Lights", "Overhead Water Tank", "Children's Play Area", "Peripheral Fencing"],
+    floorPlanImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200",
+    description: "Strategically located in the Harohalli Industrial Corridor, Kanakapura Hills II is an investor's paradise with high appreciation potential and excellent connectivity."
+  },
+  {
+    id: 4,
+    title: "The Vineyard Plotted",
+    location: "Kaggalipura, Bengaluru",
+    size: "1500 - 3000 sq ft",
+    price: "₹5,100 / sq ft",
+    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
+    tag: "Premium Club",
+    features: ["Swimming Pool", "Organic Garden", "24/7 Security"],
+    reraNumber: "PRM/KA/RERA/1251/310/PR/210510/004123",
+    amenities: ["Organic Vineyard", "Boutique Clubhouse", "Yoga Deck", "Pet Park", "Smart Waste Management"],
+    floorPlanImage: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=1200",
+    description: "The Vineyard offers a unique lifestyle centered around wellness and sustainability. Own a piece of land in this boutique community and live the vineyard life."
+  },
+  {
+    id: 5,
+    title: "Ashoka Aarna",
+    location: "Kaggalipura, Kunchigarapalya Lake",
+    size: "1200, 1500, 2400 sq ft",
+    price: "₹3,800 / sq ft",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200",
+    tag: "New Launch",
+    features: ["Lake View", "25 Acres", "367 Units"],
+    reraNumber: "PRM/KA/RERA/1251/310/PR/220615/005124",
+    amenities: ["Grand Entrance Arch", "9-24m Asphalted Roads", "Landscaped Gardens", "Children's Play Area", "Senior Citizen Park", "Jogging Track", "Overhead Tank", "24/7 Security"],
+    floorPlanImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200",
+    description: "Ashoka Aarna is a sprawling 25-acre development located in the quiet suburbs of Kanakapura Road, near Kaggalipura. With 367 premium plots and proximity to upcoming metro connectivity, it offers a perfect blend of peace and accessibility."
+  },
+  {
+    id: 6,
+    title: "Green Valley Farm Estates",
+    location: "Near Harohalli, Kanakapura Road",
+    size: "1 - 5 Acres",
+    price: "₹1.2 Cr / Acre",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200",
+    tag: "Agricultural Land",
+    features: ["Fertile Soil", "Borewell Point", "Fenced Boundary"],
+    reraNumber: "N/A - Agricultural",
+    amenities: ["Drip Irrigation System", "Farm House Foundation", "Fruit Bearing Trees", "20ft Wide Approach Road", "Solar Fencing", "Electricity Connection"],
+    floorPlanImage: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1200",
+    description: "Own a piece of paradise with our Green Valley Farm Estates. Perfect for weekend getaways or long-term agricultural investment, these managed farm lands offer peace and productivity."
+  },
+  {
+    id: 7,
+    title: "Heritage Mango Groves",
+    location: "Somanahalli, Kanakapura Road",
+    size: "0.5 - 2 Acres",
+    price: "₹85 Lakhs / Acre",
+    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200",
+    tag: "Managed Farmland",
+    features: ["Mango Plantation", "Clear Titles", "Gated Community"],
+    reraNumber: "N/A - Managed Farm",
+    amenities: ["Clubhouse Access", "Maintenance Service", "Organic Farming Support", "Security Cabin", "Water Connection", "Avenue Plantation"],
+    floorPlanImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200",
+    description: "Heritage Mango Groves offers a unique opportunity to own managed farmland with mature mango trees. Enjoy the benefits of farm life with professional maintenance and security."
+  }
+];
